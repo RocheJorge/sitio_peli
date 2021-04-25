@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Cinema</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../../estilos/estilos.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="../../fonts/ionicons.min.css">
+
+  </head>
+  <body class="colorFondo">
+
+        <!-- comienzo menu de navegacion -->
+        <div class="header-blue">
+          
+          <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+            
+              <div class="container"><a class="navbar-brand" href="#"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+               
+                  <div class="collapse navbar-collapse"
+                      id="navcol-1">
+                      <ul class="nav navbar-nav">
+                          <li class="nav-item" role="presentation"><a class="nav-link active" href="../../index.html" >Inicio</a></li>
+                          <li class="nav-item" role="presentation"><a class="nav-link" href="../prom_prec.html" >Promociones y Precios</a></li>
+                          <li class="nav-item" role="presentation"><a class="nav-link" href="../contacto.html" >Contactanos</a></li>
+                      </ul>
+                      <form class="form-inline mr-auto" target="_self">
+                          <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
+                      </form><span class="navbar-text"> <a href="../login.html" class="login">Ingresar</a></span><a class="btn btn-light action-button" role="button" href="../registro.php">Registrate</a></div>
+              </div>
+          </nav>
+      </div>
+<!-- fin menu de navegacion -->
+
+<!-- Seccion de Peliculas a ver -->
+
+<div class="card mb-3 mt-3 pt-3" id="sec_pel" style="max-width: 2000px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="../../img/cartelera/6.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title sec_tit_pel">Rocketman</h5>
+          <p class="card-text"><span class="tit_sec">Duración:</span> 120 mins.</p>
+          <p class="card-text"><span class="tit_sec">Géneros:</span> Drama, Musical</p>
+          <p class="card-text" align="justify"><span class="tit_sec">Sinópsis:</span>
+            Biopic que relata la vida del cantante, compositor y pianista británico Elton John. Desde sus comienzos, 
+            como niño prodigio del piano y estudiante en la Academia Real de Música, pasando por su juventud y su 
+            carrera como cantante, cuando se dio cuenta de que lo suyo no era la música clásica sino la música rock, 
+            hasta convertirse en una superestrella internacional, incluyendo su influyente y perdurable asociación 
+            musical con el letrista Bernie Taupin.</p>
+          <p class="card-text"><span class="tit_sec">Reparto:</span> Taron Egerton, Jamie Bell, Richard Madden, Bryce Dallas Howard</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+<!-- Button trigger modal-->
+<button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#modalYT">Ver Trailer</button>
+
+<!--Modal: modalYT-->
+<div class="modal fade" id="modalYT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q7BEpxdkt2Q"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+        <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+          data-dismiss="modal">Cerrar</button>
+    </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+<!--Modal: modalYT-->
+
+<!-- Fin de Seccion de Peliculas a ver -->
+        <!-- footer -->
+
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="esty_fot" href="../../index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a class="esty_fot" href="#">Acerca de Nosotros</a></li>
+                    <li class="list-inline-item"><a class="esty_fot" href="../ubicacion.html">Ubicanos</a></li>
+                    <li class="list-inline-item"><a class="esty_fot" href="../termi_uso.html">Terminos de Servicio</a></li>
+                    <li class="list-inline-item"><a class="esty_fot" href="../polit_priva.html">Politica de Privacidad</a></li>
+                </ul>
+                <p class="copyright">CINEMATECA Todos los Derechos Reservados © 2019</p>
+            </footer>
+        </div>
+
+        
+
+        <!-- fin footer -->
+
+
+    <!-- Libreria bootstrap sin internet -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/jquery.min.js"></script>
+
+  </body>
+</html>
